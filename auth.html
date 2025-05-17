@@ -9,27 +9,46 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="img/LOGO.png">
+        <div class="header_container">
+            <div class="logo">
+                <img src="img/LOGO.png">
+            </div>
+    
+    
+            <nav>
+                <ul>
+                    <li>
+                        <a href="register.html">Регистрация</a>
+                    </li>
+                    <li>
+                        <a href="orders.html">Мои заявки</a>
+                    </li>
+                    <li>
+                        <a href="order_make.html">Создать заявку</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <main>
-        <form action="">
+        <form>
             <h2>Вход</h2>
 
             <div class="form_item">
-                <label for="">E-mail:</label>
-                <input type="email">
+                <label for="" >E-mail:</label>
+                <span></span>
+                <input type="email" id="email">
             </div>
 
             <div class="form_item">
                 <label for="">Пароль:</label>
-                <input type="password">
+                <span></span>
+                <input type="password" id="pass">
             </div>
 
 
-            <input type="submit" class="btn" value="Войти">
+            <input type="submit" class="btn" value="Войти" id="signIn">
 
             <p class="sign_in">Нет аккаунта? <a href="register.html">Зарегистрироваться</a></p>
         </form>
@@ -57,5 +76,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/auth.js"></script>
 </body>
 </html>
