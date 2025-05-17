@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive/register.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <div class="open_nav">
+        <button id="open_nav">
+            <img src="img/Group 8.png" alt="">
+        </button>
+    </div>
+    
+    <header class="header">
         <div class="header_container">
-            <div class="logo">
+            <div class="logo header_logo">
                 <img src="img/LOGO.png">
             </div>
     
@@ -30,6 +37,7 @@
     </header>
 
     <main>
+        <h1>Регистрация</h1>
         <form>
             <h2>Регистрация</h2>
             <div class="form_item">
@@ -99,6 +107,6 @@
 
     <script src="js/register.js" defer></script>
     <script src="https://unpkg.com/imask"></script>
-
+    <script src="js/reg_open_nav.js"></script>
 </body>
 </html>

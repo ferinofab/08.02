@@ -5,13 +5,19 @@
     color: white;
 }
 
+.open_nav {
+    display: none;
+}
+
 header {
     background-color: #002137;
     padding: 10px;
     padding-left: 160px;
 }
 
-
+h1 {
+    display: none;
+}
 main {
     background-image: url(img/4\ 1.png);
     background-size: 90%;
@@ -129,7 +135,6 @@ button:hover {
 nav ul{
     display: flex;
     gap: 40px;
-    font-size: 36px;
     list-style: none;
 }
 
