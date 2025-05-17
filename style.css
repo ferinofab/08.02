@@ -100,7 +100,6 @@ footer {
     align-items: center;
     width: 1000px;
     margin-top: 150px;
-
 }
 
 .contacts, .contacts ul li, .contacts ul {
@@ -118,4 +117,11 @@ footer {
 
 .copiryte p {
     font-size: 20px;
+}
+
+button {
+    transition: .3s linear;
+}
+button:hover {
+    transform: translateY(2px);
 }
