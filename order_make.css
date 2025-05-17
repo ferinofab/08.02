@@ -1,0 +1,60 @@
+form {
+    background-color: transparent;
+}
+
+main {
+    background: none;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+main h2 {
+    color: black;
+    font-size: 96px;
+    padding-left: 160px;
+}
+
+label {
+    color: #000000;
+    font-size: 36px;
+}
+
+select{
+    background-color: #002137;
+    border-radius: 40px;
+    padding: 10px;
+    padding-right: 20px;
+    font-size: 30px;
+    outline: none;
+}
+
+select option {
+    border-radius: 30px;
+    padding: 8px;
+    width: 30px;
+    height: 10px;
+
+}
+form select {
+    width: 400px;
+    height: 84px;
+}
+main {
+    height: 1000px;
+}
+
+textarea {
+    font-size: 36px;
+    padding: 20px;
+    background-color: #002137;
+    border-radius: 40px;
+    min-width: 800px;
+    min-height: 400px;
+    max-width: 1000px;
+    max-height: 8000px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}

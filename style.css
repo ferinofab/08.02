@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+header {
+    background-color: #002137;
+    padding: 10px;
+    padding-left: 160px;
+}
+
+
+main {
+    background-image: url(img/4\ 1.png);
+    background-size: 90%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    margin-top: 300px;
+    margin-bottom: 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #002137;
+    width: 870px;
+    height: 1505px;
+    border-radius: 40px;
+    margin: 0 auto;
+    padding: 79px;
+}
+
+form h2 {
+    font-size: 48px;
+}
+
+form input{
+    padding: 8px;
+     width: 518px;
+     height: 89px;
+     border-radius: 30px;
+     background-color: #7A6174;
+     border: none;
+     outline: none;
+     font-size: 36px;
+}
+
+form input::placeholder {
+    color: white;
+}
+
+form input:hover, form  input:focus {
+    box-shadow: 10px 5px 5px #b996b1;
+    transform: translateY(2px);
+}
+
+.form_item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form_item label {
+    font-size: 36px;
+}
+
+.btn {
+    background-color:#f37345 ;
+    font-size: 36px;
+}
+
+.btn:hover {
+    box-shadow: 10px 5px 5px rgb(233, 102, 9);
+}
+.sign_in {
+    font-size: 36px;
+}
+
+.sign_in a {
+    color: #165CE7;
+    text-decoration: none;
+}
+
+footer {
+    padding: 20px;
+    padding-left: 173px;
+    background-color: #05395B;
+    height: 500px;
+    
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin-top: 150px;
+
+}
+
+.contacts, .contacts ul li, .contacts ul {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    font-size: 20px;
+}
+
+.inf {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.copiryte p {
+    font-size: 20px;
+}

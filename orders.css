@@ -1,0 +1,102 @@
+* {
+    color: black;
+}
+form {
+    background-color: transparent;
+    height: auto;
+    width: auto;
+   align-items: normal;
+}
+
+main {
+    background:none;
+}
+
+main h2 {
+    padding-left: 160px;
+    font-size: 96px;
+}
+
+label {
+    font-size: 48px;
+}
+.sort {
+    display: flex;
+    flex-direction: column;
+}
+
+
+select {
+    padding: 8px;
+    width: 518px;
+    height: 89px;
+    border-radius: 30px;
+    background-color: #002137;
+    font-size: 36px;
+    color: white;
+}
+
+option {
+    color: white;
+}
+.header {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new_order {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.orders {
+    padding: 80px;
+    background-color: #002137;
+    width: 870px;
+    height: 1244px;
+    margin: 100px auto;
+}
+
+.orders p {
+    color: white;
+}
+
+li {
+     font-size: 48px;
+     color: white;
+}
+.orders p {
+    font-size: 48px;
+   
+}
+
+.low button {
+    height: 84px;
+    width: 375px;
+    background-color: #CF562A;
+    border: none;
+    border-radius: 30px;
+    font-size: 36px;
+    color: white;
+}
+
+.low {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.title_order {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
