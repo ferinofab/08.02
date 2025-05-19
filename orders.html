@@ -5,15 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="orders.css">
+  <link rel="stylesheet" href="adaptive/header.css">
+  <link rel="stylesheet" href="adaptive/orders.css">
+  <link rel="stylesheet" href="adaptive/footer.css">
+
     <title>Document</title>
 </head>
 <body>
-    <header>
+
+    <div class="open_nav">
+        <button id="open_nav">
+            <img src="img/Group 8.png" alt="">
+        </button>
+    </div>
+    <header class="header">
         <div class="header_container">
-            <div class="logo">
+            <div class="logo header_logo">
                 <img src="img/LOGO.png">
             </div>
-    
     
             <nav>
                 <ul>
@@ -32,19 +41,19 @@
     </header>
 
     <main>
-        <h2>Все заявки</h2>
+        <h1>Все заявки</h1>
 
-        <div class="header">
+        <div class="title_content">
+
             <div class="sort">
                 <form action="">
                     <label for="">Сортировка</label>
                     <select name="" id="">
-                        <option value="">По новизне</option>
+                        <option value="" selected>По новизне</option>
                         <option value="">2</option>
                     </select>
                 </form>
             </div>
-    
             <div class="new_order">
                 <img src="img/5 (1) 1.png">
                 <button class="btn">Новая заявка</button>
@@ -57,9 +66,6 @@
                 <li>
                     <div class="order_title">
                         <p>Категория заявки</p>
-                    </div>
-
-                    <div class="low">
                         <p>Статус</p>
                         <button class="btn">Подробнее</button>
                     </div>
@@ -68,9 +74,6 @@
                 <li>
                     <div class="order_title">
                         <p>Категория заявки</p>
-                    </div>
-
-                    <div class="low">
                         <p>Статус</p>
                         <button class="btn">Подробнее</button>
                     </div>
@@ -80,9 +83,6 @@
                 <li>
                     <div class="order_title">
                         <p>Категория заявки</p>
-                    </div>
-
-                    <div class="low">
                         <p>Статус</p>
                         <button class="btn">Подробнее</button>
                     </div>
@@ -91,9 +91,6 @@
                 <li>
                     <div class="order_title">
                         <p>Категория заявки</p>
-                    </div>
-
-                    <div class="low">
                         <p>Статус</p>
                         <button class="btn">Подробнее</button>
                     </div>
@@ -124,5 +121,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/reg_open_nav.js"></script>
 </body>
 </html>

@@ -5,78 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="adaptive/auth.css">
+    <link rel="stylesheet" href="adaptive/header.css">
+
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="header_container">
-            <div class="logo">
-                <img src="img/LOGO.png">
+
+    <div class="wrapper">
+        <div class="content">
+            <div class="open_nav">
+                <button id="open_nav">
+                    <img src="img/Group 8.png" alt="">
+                </button>
             </div>
-    
-    
-            <nav>
-                <ul>
-                    <li>
-                        <a href="register.html">Регистрация</a>
-                    </li>
-                    <li>
-                        <a href="orders.html">Мои заявки</a>
-                    </li>
-                    <li>
-                        <a href="order_make.html">Создать заявку</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <form>
-            <h2>Вход</h2>
-
-            <div class="form_item">
-                <label for="" >E-mail:</label>
-                <span></span>
-                <input type="email" id="email">
-            </div>
-
-            <div class="form_item">
-                <label for="">Пароль:</label>
-                <span></span>
-                <input type="password" id="pass">
-            </div>
-
-
-            <input type="submit" class="btn" value="Войти" id="signIn">
-
-            <p class="sign_in">Нет аккаунта? <a href="register.html">Зарегистрироваться</a></p>
-        </form>
-    </main>
-
-    <footer>
-        <div class="container">
-            <div class="contacts">
-                <p>Контактные данные:</p>
-                <ul>
-                    <li>+7(XXX)-XXX-XX-XX)</li>
-                    <li>example@gmail.com</li>
-                    <li>г. Абакан ул.Пушкина, 33</li>
-                </ul>
-            </div>
-    
-            <div class="inf">
-                <div class="logo">
-                    <img src="img/LOGO.png" alt="">
+            <header class="header">
+                <div class="header_container">
+                    <div class="logo header_logo">
+                        <img src="img/LOGO.png">
+                    </div>
+            
+            
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="index.html">Регистрация</a>
+                            </li>
+                            <li>
+                                <a href="orders.html">Мои заявки</a>
+                            </li>
+                            <li>
+                                <a href="order_make.html">Создать заявку</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
+            </header>
+        
+            <main>
+                <h1>Вход</h1>
+                <form>
+                    <h2>Вход</h2>
+        
+                    <div class="form_item">
+                        <label for="" >E-mail:</label>
+                        <span></span>
+                        <input type="email" id="email">
+                    </div>
+        
+                    <div class="form_item">
+                        <label for="">Пароль:</label>
+                        <span></span>
+                        <input type="password" id="pass">
+                    </div>
+        
+        
+                    <input type="submit" class="btn" value="Войти" id="signIn">
+        
+                    <p class="sign_in">Нет аккаунта? <a href="register.html">Зарегистрироваться</a></p>
+                </form>
+            </main>
+        </div>
     
-                <div class="copiryte">
-                    <p>© Help.Desk, 2008 – 2025</p>
+        <footer>
+            <div class="container">
+                <div class="contacts">
+                    <p>Контактные данные:</p>
+                    <ul>
+                        <li>+7(XXX)-XXX-XX-XX)</li>
+                        <li>example@gmail.com</li>
+                        <li>г. Абакан ул.Пушкина, 33</li>
+                    </ul>
+                </div>
+        
+                <div class="inf">
+                    <div class="logo">
+                        <img src="img/LOGO.png" alt="">
+                    </div>
+        
+                    <div class="copiryte">
+                        <p>© Help.Desk, 2008 – 2025</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 
     <script src="js/auth.js"></script>
+    <script src="js/reg_open_nav.js"></script>
 </body>
 </html>

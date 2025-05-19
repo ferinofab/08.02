@@ -7,10 +7,12 @@
     margin-bottom: 65px;
    }
 
+
    main {
     margin-top: 60px;
     margin-bottom: 50px;
-   }
+    background: transparent;
+    }
 
    form {
     display: flex;
@@ -112,63 +114,4 @@
         height: 100%;
     }
     
-    header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .header_container {
-        justify-content: end;
-        align-items: center;
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        gap: 3px;
-        align-items: center;
-        justify-content: center
-       
-    }
-
-    nav ul li a {
-    font-size: 10px;
-
-    }
-
-    header {
-        padding: 10px;
-        display: none;
-    }
-
-    .header_logo {
-        display: none;
-    }
-    .open_nav {
-        display: block;
-        display: flex;
-        justify-content: end;
-        margin-right: 30px;
-        margin-top: 26px;
-    }
-
-    .open_nav button{
-        border: none;
-    }
-
-
-    .active_nav {
-        display: flex;
-        animation: anim .7s ease-in-out ;
-    }
-
-    @keyframes anim {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1;
-        }
-    }
 }
