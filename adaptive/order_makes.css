@@ -1,0 +1,65 @@
+@media (max-width:428px) {
+    h1 {
+        display: block;
+        color: black;
+        text-align: center;
+        font-size: 26px;
+        margin-bottom: 65px;
+       }
+
+       label {
+        font-size: 20px;
+    }
+   
+
+   form .form_item select {
+        padding: 8px;
+        width: auto;
+        height: auto;
+        color: white;
+        font-size: 16px;
+        width: 140px;
+        height: 26px;
+    }
+
+   .form_item label {
+        font-size: 12px;
+    }
+
+   html  main {
+        margin-top: 60px;
+        margin-bottom: 50px;
+        height: auto;
+       }
+
+    main form {
+        background-color: transparent;
+        margin: 0 auto;
+    }
+
+   .form_item textarea {
+    max-width: 400px;
+    min-width: 20px;
+    min-height: 40px;
+    font-size: 20px;
+    border-radius: 13px;
+
+    font-size: 12px;
+   }
+
+   form .btn {
+    width: auto;
+    height: auto;
+    padding: 8px;
+    border-radius: 12px;
+    font-size: 12px;
+   }
+
+   html form {
+    width: 400px;
+    display: flex;
+    align-items: start;
+    height: auto;
+   }
+
+}
